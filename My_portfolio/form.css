@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkgray;
+    margin-bottom: 45px;
+    padding: 0;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    display: none; 
+}
+
+.radio-container {
+    margin-bottom: 15px;
+}
+
+.radio-container label {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.radio-container label:hover {
+    background-color: #b3b3b3;
+}
+
+
+input[type="radio"]:checked + label {
+    background-color: brown;
+    color: white;
+}
