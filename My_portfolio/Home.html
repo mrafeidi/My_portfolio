@@ -27,14 +27,27 @@
     <li><a href="../index.html">ME</a></li>
     </ul>
     <br>
-    <audio id="audioElement" controls >
-    <source src="audio.mp4" type="">
-    </audio>
-    
-    <h1>Bio</h1>
-    <p>My name is Ihsan Afridi I belong to khyber Agency.Currently im stduying islamia college Universty peshawar and im BS Software Eng I almost complete JavaScript,htmland css.</p>
+    <h1 style="color: rgba(20,98,10,0.822); font-size: 30px;">Ihsan Afridi
+      <img id="speaker" src="audio.png" alt="speaker icon" height="30" width="30"></h1>
+      <script>
+        let  audio = new Audio("audio.mp4")
 
-    
+        function playAudio() {
+          audio.play();
+        }
+
+        document.getElementById("speaker").addEventListener("click",playAudio)
+      </script>
+
+    <h1>Bio</h1>
+    <p>My name is Ihsan Afridi I belong to khyber Agency.Currently im stduying in islamia college Universty peshawar.</p>
+     <hr>
+     <h1>My Education (Software Eng)</h1>
+     <ul>
+      <li>My School:Iqbal vision School & College</li>
+      <li>My College:Globel deggre College</li>
+      <li>My Universty:Islamia College Universty peshawar</li>
+     </ul>
 <hr>
     <img src="lalala.png" width="20" >
     <a href="mailto:ihsanafridi576284@gmail.com">Gmail</a><br>
